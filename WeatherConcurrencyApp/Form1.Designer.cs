@@ -72,6 +72,7 @@ namespace WeatherConcurrencyApp
             this.Controls.Add(this.flpContent);
             this.Name = "FrmMain";
             this.Text = "Weather Async App";
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

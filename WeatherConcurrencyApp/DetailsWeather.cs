@@ -16,5 +16,10 @@ namespace WeatherConcurrencyApp
         {
             InitializeComponent();
         }
+
+        private void DetailsWeather_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

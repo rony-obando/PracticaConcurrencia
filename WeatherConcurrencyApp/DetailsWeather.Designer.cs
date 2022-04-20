@@ -60,6 +60,7 @@ namespace WeatherConcurrencyApp
             this.Controls.Add(this.lblDetail);
             this.Name = "DetailsWeather";
             this.Size = new System.Drawing.Size(106, 74);
+            this.Load += new System.EventHandler(this.DetailsWeather_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
