@@ -64,7 +64,7 @@ namespace WeatherConcurrencyApp
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 319F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Controls.Add(this.lblTemperature, 0, 1);
@@ -95,9 +95,9 @@ namespace WeatherConcurrencyApp
             // flpContent
             // 
             this.flpContent.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flpContent.Location = new System.Drawing.Point(0, 144);
+            this.flpContent.Location = new System.Drawing.Point(0, 161);
             this.flpContent.Name = "flpContent";
-            this.flpContent.Size = new System.Drawing.Size(319, 407);
+            this.flpContent.Size = new System.Drawing.Size(319, 390);
             this.flpContent.TabIndex = 3;
             // 
             // WeatherPanel
@@ -108,6 +108,7 @@ namespace WeatherConcurrencyApp
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "WeatherPanel";
             this.Size = new System.Drawing.Size(319, 551);
+            this.Load += new System.EventHandler(this.WeatherPanel_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
